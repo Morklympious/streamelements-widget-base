@@ -1,0 +1,47 @@
+{
+  "name": "project-explosion",
+  "version": "1.0.0",
+  "description": "A template repository for a somewhat opinionated project.",
+  "main": "src/application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "./node_modules/.bin/rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stffrd/project-explosion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stffrd/project-explosion/issues"
+  },
+  "homepage": "https://github.com/stffrd/project-explosion#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@modular-css/path-aliases": "^28.0.0",
+    "@modular-css/rollup": "^28.0.0",
+    "@modular-css/rollup-rewriter": "^28.0.0",
+    "@modular-css/shortnames": "^28.0.0",
+    "@modular-css/svelte": "^28.0.0",
+    "@rollup/plugin-alias": "^3.1.2",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-replace": "^2.4.2",
+    "@tivac/eslint-config": "^2.4.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-svelte3": "^2.7.3",
+    "postcss": "8.4.12",
+    "rollup": "^2.53.1",
+    "rollup-plugin-globsync": "^2.1.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-svelte": "^6.1.1",
+    "svelte": "^3.38.3",
+    "xstate": "^4.22.0",
+    "xstate-component-tree": "^3.4.1"
+  },
+  "dependencies": {}
+}
