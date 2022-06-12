@@ -1,11 +1,3 @@
-# project-explosion
-A template repository for a somewhat opinionated project.
+# What is this?
+This is my github-hosted boilerpolate refactor of some simple StreamElements stuff. It might change as I develop more with it, but until then it's just a place for me to store my code. 
 
-## How opinionated?
-
-Well I'm glad you asked. Kind of? Kind of. 
-
-### Technologies
-1. Svelte, for front end rendering
-2. Xstate, for modeling complex deterministic states for a complex UI application
-3. Modular CSS in conjunction with svelte, to make use of insanely dope CSS post-processing!
